@@ -46,3 +46,5 @@ end
 
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
+
+gem "twitter-bootstrap-rails", branch: 'bootstrap3'
