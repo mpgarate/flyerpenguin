@@ -1,10 +1,17 @@
 <html>
-<p>
-  hello world
-</p>
-<% 20.times do |i| %>
-  <p>
-    <%= "#{i}" %>
-  </p>
-<% end %>
+
+<%= @event['name'] %>
+
+<br />
+
+<%= @event['description'] %>
+
 </html>
+
+<!-- 
+
+EVENT_INFO: {"description"
+"is_date_only"=>false, "location"=>"Washington Square Park", "name"=>"Pillow Fight NYC 2014", "owner"=>{"category"=>"Organization", "category_list"=>[{"id"=>"198503866828628", "name"=>"Organization"}], "name"=>"Newmindspace", "id"=>"6743974125"}, "privacy"=>"OPEN", "start_time"=>"2014-04-05T15:00:00-0400", "timezone"=>"America/New_York", "updated_time"=>"2014-04-03T02:06:54+0000", "venue"=>{"id"=>"108472159177508", "city"=>"New York", "country"=>"United States", "latitude"=>40.731040167569, "longitude"=>-73.997276567706, "state"=>"NY", "street"=>"5 Avenue, Waverly Place, West 4th and MacDougal Streets", "zip"=>"10003"}, "id"=>"364610737014759"}
+
+
+  -->
